@@ -5,7 +5,7 @@ The Calculator App is an Android application inspired by the UI design of the iO
 
 ## Installation
 To install and run the Calculator App on your Android device, follow these steps:
-1. Download the APK file from [here](#).
+1. Download the APK file from [here](https://github.com/Somesh-nayek/Sample_Calculator/releases/download/z3.0.0/app-release.apk).
 2. Transfer the APK file to your Android device.
 3. Enable installation from unknown sources in your device settings.
 4. Open the APK file on your device and follow the on-screen instructions to install the app.
