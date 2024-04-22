@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
     }
     fun onCLR(view: View){
         tvInput?.text = ""
+        lastnumeric=false
+        lastDot=false
+        one_Decimal=true
     }
     fun onDecimalPoint(view:View){
         if(lastnumeric && !lastDot && one_Decimal){
@@ -136,14 +139,17 @@ class MainActivity : ComponentActivity() {
         return false
     }
     fun backbutton(view: View){
-        var s=tvInput?.text.toString()
-        var n=s.length
-        tvInput?.text=s.substring(0,n-1)
+        if(tvInput?.text.toString().isNotEmpty()){
+            var s=tvInput?.text.toString()
+            var n=s.length
+            tvInput?.text=s.substring(0,n-1)
 
-        val a=s[n-1]
-        if(isOperator(a)){
-            lastnumeric=true
+            val a=s[n-1]
+            if(isOperator(a)){
+                lastnumeric=true
+            }
         }
+
     }
     fun isOperator(last: Char):Boolean{
         return last=='/' || last=='+' || last=='-' || last=='*'
