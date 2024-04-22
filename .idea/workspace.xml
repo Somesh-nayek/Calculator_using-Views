@@ -16,23 +16,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="010a3b48-908f-445d-a3a6-1d56d6ecd16b" name="Changes" comment="havind screenshot file in resources/drawables">
-      <change afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/black_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/blackbutton_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_button_clicked.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_button_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/operator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/operator_clicked.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/operator_text.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+    <list default="true" id="010a3b48-908f-445d-a3a6-1d56d6ecd16b" name="Changes" comment="1.Fixed Bugs  &#10;2.onClick Animation&#10;3.buttons Size done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/blackbutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mybutton_default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mybutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonclickedblack.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/operatir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/operator_default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activitymain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activitymain.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713616042557</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.Fixed Bugs  &#10;2.onClick Animation&#10;3.buttons Size done">
+      <option name="closed" value="true" />
+      <created>1713803446637</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713803446637</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +258,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="screen shot directory inside Android directory didn't worked" />
     <MESSAGE value="havind screenshot file in resources/drawables" />
-    <option name="LAST_COMMIT_MESSAGE" value="havind screenshot file in resources/drawables" />
+    <MESSAGE value="1.Fixed Bugs  &#10;2.onClick Animation&#10;3.buttons Size done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Fixed Bugs  &#10;2.onClick Animation&#10;3.buttons Size done" />
   </component>
 </project>
